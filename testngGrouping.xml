@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="GroupingSuite">
+  <test name="GroupingTest">
+  <groups>
+  <run>
+  <include name="Sanity"></include>
+  </run>
+  </groups>
+    <classes>
+      <class name="testNGPractice.TestNGGrouping"/>
+    </classes>
+  </test> <!-- GroupingTest -->
+</suite> <!-- GroupingSuite -->
