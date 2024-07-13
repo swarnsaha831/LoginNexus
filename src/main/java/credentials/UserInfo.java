@@ -2,14 +2,14 @@ package credentials;
 
 public class UserInfo {
 
-	String githubUsername = "swarnsaha831";
-	String githubPassword = "Timetoexplode1!";
+	String githubUsername = " YOUR_GITHUB_USERNAME ";
+	String githubPassword = " YOUR_GITHUB_PASSWORD ";
 	
 	String practiceUsername = "student";
 	String practicePassword = "Password123";
 	
-	String macysUsername = "spartancreed3000@gmail.com";
-	String macysPassword = "Timetoexplode1!";
+	String macysUsername = " YOUR_MACYS_USERNAME ";
+	String macysPassword = " YOUR_MACYS_PASSWORD ";
 	
 	public String githubUsername() {
 		return githubUsername.replaceAll(" ", "");
