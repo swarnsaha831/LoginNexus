@@ -15,7 +15,6 @@ public class TestSteps {
 	@Given("User naviagtes to one of the designated websites")
 	public void user_naviagtes_to_one_of_the_designated_websites() {
 		util = new WebDriverUtil(Hooks.getDriver());
-		driver = util.getDriver();
 	}
 
 	@When("User enters the respective login info")
