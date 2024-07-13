@@ -2,7 +2,6 @@ package utilities;
 
 import org.testng.Assert;
 import java.time.Duration;
-import configuration.Hooks;
 import factory.Pagefactory;
 import credentials.UserInfo;
 import org.openqa.selenium.WebDriver;
