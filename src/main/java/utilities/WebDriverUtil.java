@@ -93,8 +93,4 @@ public class WebDriverUtil {
         System.out.println("Test passed.");
     }
 	
-	public WebDriver getDriver() {
-		return driver = Hooks.getDriver();
-	}
-	
 }
