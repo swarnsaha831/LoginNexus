@@ -5,11 +5,9 @@ import utilities.WebDriverUtil;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.Given;
-import org.openqa.selenium.WebDriver;
 
 public class TestSteps {
 
-	public WebDriver driver;
 	private WebDriverUtil util; 
 	
 	@Given("User naviagtes to one of the designated websites")
