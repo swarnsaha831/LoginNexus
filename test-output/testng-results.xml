@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-11T18:38:38 EDT" name="Default suite" finished-at="2024-07-11T18:38:52 EDT" duration-ms="13899">
+  <suite started-at="2024-07-13T03:30:00 EDT" name="Default suite" finished-at="2024-07-13T03:30:15 EDT" duration-ms="14271">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerFile@593aaf41]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-07-11T18:38:38 EDT" name="Default test" finished-at="2024-07-11T18:38:52 EDT" duration-ms="13899">
+    <test started-at="2024-07-13T03:30:00 EDT" name="Default test" finished-at="2024-07-13T03:30:15 EDT" duration-ms="14271">
       <class name="runner.RunnerFile">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.RunnerFile@593aaf41]" started-at="2024-07-11T18:38:38 EDT" name="setUpClass" finished-at="2024-07-11T18:38:38 EDT" duration-ms="465" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.RunnerFile@593aaf41]" started-at="2024-07-13T03:30:00 EDT" name="setUpClass" finished-at="2024-07-13T03:30:01 EDT" duration-ms="490" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3d620a1]]>
+                <![CDATA[org.testng.TestRunner@5a515e5d]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerFile@593aaf41]" started-at="2024-07-11T18:38:38 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-11T18:38:51 EDT" duration-ms="13299" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerFile@593aaf41]" started-at="2024-07-13T03:30:01 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-07-13T03:30:15 EDT" duration-ms="13640" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,25 +34,10 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Error: The URL does not match any of the expected URLs. expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Error: The URL does not match any of the expected URLs. expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at utilities.WebDriverUtil.checkTest(WebDriverUtil.java:87)
-at stepDefinition.TestSteps.user_should_have_access_to_their_account(TestSteps.java:34)
-at ✽.User should have access to their account(file:///Users/swarnadeepsaha/eclipse-workspace/LoginNexus/src/test/resources/Feature/LoginNexus.feature:7)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.RunnerFile@593aaf41]" started-at="2024-07-11T18:38:51 EDT" name="tearDownClass" finished-at="2024-07-11T18:38:52 EDT" duration-ms="83" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.RunnerFile@593aaf41]" started-at="2024-07-13T03:30:15 EDT" name="tearDownClass" finished-at="2024-07-13T03:30:15 EDT" duration-ms="99" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

@@ -2,37 +2,37 @@ package credentials;
 
 public class UserInfo {
 
-	String githubUsername = " YOUR_GITHUB_USERNAME ";
-	String githubPassword = " YOUR_GITHUB_PASSWORD ";
+	String githubUsername = "swarnsaha831";
+	String githubPassword = "Timetoexplode1!";
 	
 	String practiceUsername = "student";
 	String practicePassword = "Password123";
 	
-	String macysUsername = " YOUR_MACY'S_USERNAME ";
-	String macysPassword = " YOUR_MACY'S_PASSWORD ";
+	String macysUsername = "spartancreed3000@gmail.com";
+	String macysPassword = "Timetoexplode1!";
 	
 	public String githubUsername() {
-		return githubUsername;
+		return githubUsername.replaceAll(" ", "");
 	}
 
 	public String githubPassword() {
-		return githubPassword;
+		return githubPassword.replaceAll(" ", "");
 	}
 	
 	public String practiceUsername() {
-		return practiceUsername;
+		return practiceUsername.replaceAll(" ", "");
 	}
 	
 	public String practicePassword() {
-		return practicePassword;
+		return practicePassword.replaceAll(" ", "");
 	}
 	
 	public String macysUsername() {
-		return macysUsername;
+		return macysUsername.replaceAll(" ", "");
 	}
 	
 	public String macysPassword() {
-		return macysPassword;
+		return macysPassword.replaceAll(" ", "");
 	}
 	
 }
